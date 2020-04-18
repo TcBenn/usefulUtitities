@@ -1,0 +1,36 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "1": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "2": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "3": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "5": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "6": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "8": {
+      "item": "useful_utilities:liquidpiss"
+    }
+  },
+  "result": {
+    "item": "useful_utilities:pissarmourarmorlegs",
+    "count": 1
+  }
+}

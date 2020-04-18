@@ -1,0 +1,29 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "1": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "2": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "3": {
+      "item": "useful_utilities:liquidpiss"
+    },
+    "5": {
+      "item": "useful_utilities:liquidpiss"
+    }
+  },
+  "result": {
+    "item": "useful_utilities:pissarmourarmorhelmet",
+    "count": 1
+  }
+}

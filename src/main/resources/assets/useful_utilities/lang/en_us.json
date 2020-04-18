@@ -1,9 +1,13 @@
 {
   "block.useful_utilities.robloxore": "Roblox Ore",
   "item.useful_utilities.liquidpiss": "Liquid Piss",
+  "item.useful_utilities.pissarmourarmorhelmet": "PissArmour Helmet",
+  "item.useful_utilities.pissarmourarmorbody": "PissArmour Chestplate",
+  "item.useful_utilities.pissarmourarmorboots": "PissArmour Boots",
   "block.useful_utilities.solidpissore": "Solid Piss Ore",
   "fluid.trueliquidpiss": "TrueLiquidPiss",
   "item.useful_utilities.trueliquidpiss_bucket": "TrueLiquidPiss Bucket",
   "item.useful_utilities.robloxingot": "Roblox",
-  "block.useful_utilities.robloxoreblock": "Block of Roblox"
+  "block.useful_utilities.robloxoreblock": "Block of Roblox",
+  "item.useful_utilities.pissarmourarmorlegs": "PissArmour Leggings"
 }
