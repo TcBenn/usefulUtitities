@@ -67,6 +67,42 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "LiquidPissRightClickedInAir",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiquidPiss",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -74,6 +110,7 @@
   "language_map": {
     "en_us": {
       "block.useful_utilities.robloxore": "Roblox Ore",
+      "item.useful_utilities.liquidpiss": "Liquid Piss",
       "block.useful_utilities.solidpissore": "Solid Piss Ore",
       "item.useful_utilities.robloxingot": "Roblox",
       "block.useful_utilities.robloxoreblock": "Block of Roblox"

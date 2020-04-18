@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "liquidpiss",
+    "customModelName": "Normal",
+    "name": "Liquid Piss",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 2,
+    "enchantability": 1,
+    "useDuration": 0,
+    "toolType": 2.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.1,
+    "specialInfo": [
+      "youve been pissed"
+    ],
+    "hasGlow": true,
+    "onRightClickedInAir": {
+      "name": "LiquidPissRightClickedInAir"
+    }
+  }
+}
