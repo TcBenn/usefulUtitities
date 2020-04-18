@@ -131,6 +131,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "TrueLiquidPissMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrueLiquidPiss",
+      "type": "fluid",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -140,6 +164,8 @@
       "block.useful_utilities.robloxore": "Roblox Ore",
       "item.useful_utilities.liquidpiss": "Liquid Piss",
       "block.useful_utilities.solidpissore": "Solid Piss Ore",
+      "fluid.trueliquidpiss": "TrueLiquidPiss",
+      "item.useful_utilities.trueliquidpiss_bucket": "TrueLiquidPiss Bucket",
       "item.useful_utilities.robloxingot": "Roblox",
       "block.useful_utilities.robloxoreblock": "Block of Roblox"
     }
