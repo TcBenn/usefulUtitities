@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 0.7,
+    "xpReward": 0.35,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
@@ -40,12 +40,12 @@
       "value": ""
     },
     "smeltingInputStack": {
-      "value": "CUSTOM:EOre"
+      "value": "CUSTOM:RobloxOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:EGem"
+      "value": "CUSTOM:RobloxIngot"
     },
-    "name": "eoresmelting",
+    "name": "robloxoresmelting",
     "namespace": "mod"
   }
 }

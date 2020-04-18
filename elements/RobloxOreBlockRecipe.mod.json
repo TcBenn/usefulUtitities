@@ -9,37 +9,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       },
       {
-        "value": "CUSTOM:EGem"
+        "value": "CUSTOM:RobloxIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EOreBlock"
+      "value": "CUSTOM:RobloxOreBlock"
     },
-    "name": "eoreblockrecipe",
+    "name": "robloxoreblockrecipe",
     "namespace": "mod"
   }
 }

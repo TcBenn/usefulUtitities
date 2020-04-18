@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "useful_utilities:eoreblock"
+      "item": "useful_utilities:robloxoreblock"
     }
   ],
   "result": {
-    "item": "useful_utilities:egem",
+    "item": "useful_utilities:robloxingot",
     "count": 9
   }
 }

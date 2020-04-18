@@ -11,10 +11,10 @@ import net.minecraft.block.BlockState;
 import net.mcreator.useful_utilities.UsefulUtilitiesElements;
 
 @UsefulUtilitiesElements.ModElement.Tag
-public class EGemItem extends UsefulUtilitiesElements.ModElement {
-	@ObjectHolder("useful_utilities:egem")
+public class RobloxIngotItem extends UsefulUtilitiesElements.ModElement {
+	@ObjectHolder("useful_utilities:robloxingot")
 	public static final Item block = null;
-	public EGemItem(UsefulUtilitiesElements instance) {
+	public RobloxIngotItem(UsefulUtilitiesElements instance) {
 		super(instance, 3);
 	}
 
@@ -25,7 +25,7 @@ public class EGemItem extends UsefulUtilitiesElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("egem");
+			setRegistryName("robloxingot");
 		}
 
 		@Override

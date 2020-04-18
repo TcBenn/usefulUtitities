@@ -1,11 +1,11 @@
 {
   "group": "useful_utilities",
   "type": "minecraft:smelting",
-  "experience": 0.7,
+  "experience": 0.35,
   "ingredient": {
-    "item": "useful_utilities:eore"
+    "item": "useful_utilities:robloxore"
   },
   "result": {
-    "item": "useful_utilities:egem"
+    "item": "useful_utilities:robloxingot"
   }
 }

@@ -2,7 +2,7 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "EOre",
+      "name": "RobloxOre",
       "type": "block",
       "sortid": 1,
       "compiles": true,
@@ -10,7 +10,7 @@
       "ids": {}
     },
     {
-      "name": "EOreBlock",
+      "name": "RobloxOreBlock",
       "type": "block",
       "sortid": 2,
       "compiles": true,
@@ -18,7 +18,7 @@
       "ids": {}
     },
     {
-      "name": "EGem",
+      "name": "RobloxIngot",
       "type": "item",
       "sortid": 3,
       "compiles": true,
@@ -26,7 +26,7 @@
       "ids": {}
     },
     {
-      "name": "EOreBlockRecipe",
+      "name": "RobloxOreBlockRecipe",
       "type": "recipe",
       "sortid": 4,
       "compiles": true,
@@ -34,7 +34,7 @@
       "ids": {}
     },
     {
-      "name": "EBlockOreRecipe",
+      "name": "RobloxBlockOreRecipe",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
@@ -42,7 +42,7 @@
       "ids": {}
     },
     {
-      "name": "EOreSmelting",
+      "name": "RobloxOreSmelting",
       "type": "recipe",
       "sortid": 6,
       "compiles": true,
@@ -54,9 +54,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.useful_utilities.eore": "E Ore",
-      "block.useful_utilities.eoreblock": "Block of E",
-      "item.useful_utilities.egem": "E"
+      "block.useful_utilities.robloxore": "Roblox Ore",
+      "item.useful_utilities.robloxingot": "Roblox",
+      "block.useful_utilities.robloxoreblock": "Block of Roblox"
     }
   },
   "workspaceSettings": {

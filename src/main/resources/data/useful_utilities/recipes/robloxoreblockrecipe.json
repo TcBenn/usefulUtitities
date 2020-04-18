@@ -1,0 +1,42 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "1": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "2": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "3": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "4": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "5": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "6": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "7": {
+      "item": "useful_utilities:robloxingot"
+    },
+    "8": {
+      "item": "useful_utilities:robloxingot"
+    }
+  },
+  "result": {
+    "item": "useful_utilities:robloxoreblock",
+    "count": 1
+  }
+}

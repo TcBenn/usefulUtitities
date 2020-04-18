@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:EOreBlock"
+        "value": "CUSTOM:RobloxOreBlock"
       },
       {
         "value": ""
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EGem"
+      "value": "CUSTOM:RobloxIngot"
     },
-    "name": "eblockorerecipe",
+    "name": "robloxblockorerecipe",
     "namespace": "mod"
   }
 }

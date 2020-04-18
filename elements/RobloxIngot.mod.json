@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "e_gem",
+    "texture": "roblox_ingot",
     "customModelName": "Normal",
-    "name": "E",
+    "name": "Roblox",
     "creativeTab": {
       "value": "MISC"
     },

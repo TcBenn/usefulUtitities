@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "useful_utilities:blocks/e_ore",
-    "particle": "useful_utilities:blocks/e_ore"
-  }
-}

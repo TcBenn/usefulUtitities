@@ -20,10 +20,10 @@ import java.util.List;
 import java.util.Collections;
 
 @UsefulUtilitiesElements.ModElement.Tag
-public class EOreBlockBlock extends UsefulUtilitiesElements.ModElement {
-	@ObjectHolder("useful_utilities:eoreblock")
+public class RobloxOreBlockBlock extends UsefulUtilitiesElements.ModElement {
+	@ObjectHolder("useful_utilities:robloxoreblock")
 	public static final Block block = null;
-	public EOreBlockBlock(UsefulUtilitiesElements instance) {
+	public RobloxOreBlockBlock(UsefulUtilitiesElements instance) {
 		super(instance, 2);
 	}
 
@@ -35,9 +35,9 @@ public class EOreBlockBlock extends UsefulUtilitiesElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("eoreblock");
+			setRegistryName("robloxoreblock");
 		}
 
 		@Override
