@@ -22,6 +22,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.IFluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
@@ -29,6 +31,8 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.useful_utilities.procedures.SolidPissOreRedstoneOnProcedure;
+import net.mcreator.useful_utilities.procedures.SolidPissOreBlockDestroyedByPlayerProcedure;
+import net.mcreator.useful_utilities.item.LiquidPissItem;
 import net.mcreator.useful_utilities.UsefulUtilitiesElements;
 
 import java.util.Random;
@@ -61,7 +65,7 @@ public class SolidPissOreBlock extends UsefulUtilitiesElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(LiquidPissItem.block, (int) (6)));
 		}
 
 		@Override
@@ -77,6 +81,23 @@ public class SolidPissOreBlock extends UsefulUtilitiesElements.ModElement {
 				}
 			} else {
 			}
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, IFluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SolidPissOreBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 	@Override

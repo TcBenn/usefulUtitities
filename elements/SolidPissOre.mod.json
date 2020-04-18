@@ -29,11 +29,11 @@
       "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
+    "affectedBySilkTouch": false,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:LiquidPiss"
     },
-    "dropAmount": 1,
+    "dropAmount": 6,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -77,6 +77,9 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "onDestroyedByPlayer": {
+      "name": "SolidPissOreBlockDestroyedByPlayer"
+    },
     "onRedstoneOn": {
       "name": "SolidPissOreRedstoneOn"
     },
