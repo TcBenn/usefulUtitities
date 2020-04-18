@@ -1,0 +1,11 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "useful_utilities:eore"
+  },
+  "result": {
+    "item": "useful_utilities:egem"
+  }
+}

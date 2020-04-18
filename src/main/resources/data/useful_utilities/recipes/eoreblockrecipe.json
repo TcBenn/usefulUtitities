@@ -1,0 +1,42 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "useful_utilities:egem"
+    },
+    "1": {
+      "item": "useful_utilities:egem"
+    },
+    "2": {
+      "item": "useful_utilities:egem"
+    },
+    "3": {
+      "item": "useful_utilities:egem"
+    },
+    "4": {
+      "item": "useful_utilities:egem"
+    },
+    "5": {
+      "item": "useful_utilities:egem"
+    },
+    "6": {
+      "item": "useful_utilities:egem"
+    },
+    "7": {
+      "item": "useful_utilities:egem"
+    },
+    "8": {
+      "item": "useful_utilities:egem"
+    }
+  },
+  "result": {
+    "item": "useful_utilities:eoreblock",
+    "count": 1
+  }
+}

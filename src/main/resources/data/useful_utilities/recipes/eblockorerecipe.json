@@ -1,0 +1,13 @@
+{
+  "group": "useful_utilities",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "useful_utilities:eoreblock"
+    }
+  ],
+  "result": {
+    "item": "useful_utilities:egem",
+    "count": 9
+  }
+}
