@@ -48,6 +48,25 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SolidPissOreRedstoneOn",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SolidPissOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -55,6 +74,7 @@
   "language_map": {
     "en_us": {
       "block.useful_utilities.robloxore": "Roblox Ore",
+      "block.useful_utilities.solidpissore": "Solid Piss Ore",
       "item.useful_utilities.robloxingot": "Roblox",
       "block.useful_utilities.robloxoreblock": "Block of Roblox"
     }
